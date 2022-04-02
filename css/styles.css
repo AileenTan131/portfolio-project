@@ -55,29 +55,54 @@ li {
   margin: 0 auto;
   padding-top: 160px;
 }
-/* .coding-section {
-  background-image: url("../images/Web.png");
+
+.coding-section {
+  position: relative;
+  padding-top: 282px;
 }
-.coding-section:hover {
-  opacity: 30%;
-  transition: all 500ms ease-in-out;
+.coding-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   height: 764px;
   background-image: url("../images/Web.png");
-} */
+  opacity: 1;
+}
+.coding-section:hover {
+  transition: all 500ms ease-in-out;
+  background-image: url("../images/Web.png");
+  opacity: 0.3;
+}
 
+h1 {
+  margin-top: 210px;
+  font-size: 54px;
+}
+h2 {
+  font-size: 48px;
+}
 h1,
 h2 {
   font-family: var(--main-font);
   font-weight: 900;
-  font-size: 54px;
-  margin-top: 210px;
   letter-spacing: 8px;
   text-transform: uppercase;
 }
+h2,
+h3 {
+  color: black;
+  position: relative;
+}
+h3,
 h4 {
   font-family: var(--secondary-font);
   font-weight: 600;
   font-size: 16px;
+}
+h4 {
   padding-bottom: 30px;
 }
 p {
