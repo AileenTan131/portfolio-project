@@ -1,3 +1,87 @@
-h1 {
-  color: red;
+:root {
+  --main-font: "Red Hat Display", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+}
+.navbar-nav {
+  font-family: var(--main-font);
+  line-height: 25px;
+  letter-spacing: 3px;
+  padding-right: 40px;
+}
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 0px 60px;
+  margin: 0;
+}
+.nav-link.dropdown-toggle,
+.nav-link.active,
+li {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 0;
+}
+.dropdown-menu.show {
+  line-height: 35px;
+  text-align: right;
+}
+
+.container-fluid {
+  text-align: center;
+}
+.social-media {
+  display: inline;
+  padding-right: 2px;
+}
+.fa-linkedin {
+  font-size: 20px;
+  color: #1d65c3;
+}
+.instagram-logo {
+  width: 20px;
+  position: relative;
+  right: -2px;
+  top: -3px;
+}
+.fa-instagram-square {
+  font-size: 20px;
+  color: #7837a7;
+}
+.timeline {
+  width: 1270px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 160px;
+}
+/* .coding-section {
+  background-image: url("../images/Web.png");
+}
+.coding-section:hover {
+  opacity: 30%;
+  transition: all 500ms ease-in-out;
+  height: 764px;
+  background-image: url("../images/Web.png");
+} */
+
+h1,
+h2 {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 54px;
+  margin-top: 210px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+h4 {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+p {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 15px;
 }
