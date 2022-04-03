@@ -70,10 +70,6 @@ li {
   left: 137px;
   bottom: 72px;
 }
-.fa-instagram-square {
-  font-size: 20px;
-  color: #7837a7;
-}
 .timeline {
   max-width: 100%;
   padding: 0px 50px;
@@ -222,4 +218,35 @@ footer.copyright {
   font-size: 10px;
   opacity: 50%;
   bottom: 10px;
+}
+
+@media (max-width: 991px) {
+  .dropdown-menu.show {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 39px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .fa-linkedin {
+    font-size: 17px;
+  }
+  .instagram-logo {
+    width: 17px;
+  }
+  h2 {
+    font-size: 34px;
+    margin-bottom: -0.5rem;
+  }
+  h3 {
+    font-size: 11.5px;
+    margin: 0px;
+  }
 }
