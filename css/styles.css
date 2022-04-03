@@ -7,7 +7,6 @@
   font-family: var(--main-font);
   line-height: 25px;
   letter-spacing: 3px;
-  /* padding-right: 40px; */
 }
 .navbar-brand {
   text-transform: uppercase;
@@ -53,12 +52,31 @@ li {
   right: -2px;
   top: -3px;
 }
+.vmw-group-logo {
+  position: relative;
+  width: 7%;
+  right: 35px;
+  bottom: 68px;
+}
+.vmw-logo {
+  position: relative;
+  width: 4.5%;
+  right: 24px;
+  bottom: 70px;
+}
+.detail-logo {
+  position: relative;
+  width: 2%;
+  left: 137px;
+  bottom: 72px;
+}
 .fa-instagram-square {
   font-size: 20px;
   color: #7837a7;
 }
 .timeline {
-  width: 1270px;
+  max-width: 100%;
+  padding: 0px 50px;
   display: block;
   margin: 0 auto;
   padding-top: 160px;
@@ -79,6 +97,7 @@ li {
   position: relative;
   height: var(--section-height);
 }
+
 .coding-section .section-text,
 .branding-section .section-text,
 .digital-imaging-section .section-text {
@@ -90,6 +109,7 @@ li {
 .digital-imaging-section:hover .section-text {
   opacity: 1;
 }
+
 .coding-section .background::before {
   background-image: url("../images/Web.png");
 }
@@ -108,10 +128,13 @@ li {
   right: 0;
   bottom: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   height: var(--section-height);
   opacity: 1;
   transition: all 150ms ease-in-out;
 }
+
 .coding-section:hover .background::before,
 .branding-section:hover .background::before,
 .digital-imaging-section:hover .background::before {
@@ -194,4 +217,9 @@ p {
   font-family: var(--secondary-font);
   font-weight: 400;
   font-size: 15px;
+}
+footer.copyright {
+  font-size: 10px;
+  opacity: 50%;
+  bottom: 10px;
 }
