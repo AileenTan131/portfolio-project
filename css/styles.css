@@ -1,6 +1,7 @@
 :root {
   --main-font: "Red Hat Display", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
+  --section-height: 600px;
 }
 .navbar-nav {
   font-family: var(--main-font);
@@ -58,8 +59,8 @@ li {
 }
 .coding-section {
   position: relative;
-  padding-top: 282px;
-  height: 764px;
+  padding-top: 200px;
+  height: var(--section-height);
 }
 .coding-section .background::before {
   content: "";
@@ -68,20 +69,20 @@ li {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 764px;
+  height: var(--section-height);
   background-image: url("../images/Web.png");
   opacity: 1;
 }
 .coding-section .background:hover {
-  transition: all 300ms ease-in-out;
+  transition: all 150ms ease-in-out;
   background-image: url("../images/Web.png");
   opacity: 0.3;
 }
 
 .branding-section {
   position: relative;
-  padding-top: 282px;
-  height: 764px;
+  padding-top: 150px;
+  height: var(--section-height);
 }
 .branding-section .background::before {
   content: "";
@@ -90,20 +91,20 @@ li {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 764px;
+  height: var(--section-height);
   background-image: url("../images/Branding.png");
   opacity: 1;
 }
 .branding-section .background:hover {
-  transition: all 300ms ease-in-out;
+  transition: all 150ms ease-in-out;
   background-image: url("../images/Branding.png");
   opacity: 0.3;
 }
 
 .digital-imaging-section {
   position: relative;
-  padding-top: 282px;
-  height: 764px;
+  padding-top: 300px;
+  height: var(--section-height);
 }
 .digital-imaging-section .background::before {
   content: "";
@@ -112,15 +113,29 @@ li {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 764px;
+  height: var(--section-height);
   background-image: url("../images/Digital-imaging.png");
   opacity: 1;
 }
 .digital-imaging-section .background:hover {
-  transition: all 300ms ease-in-out;
+  transition: all 150ms ease-in-out;
   background-image: url("../images/Digital-imaging.png");
   opacity: 0.3;
 }
+/* .digital-imaging-section {
+  background-image: url("../images/Digital-imaging.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  padding: 200px 0px;
+}
+.digital-imaging-text {
+  opacity: 0;
+}
+.digital-imaging-text:hover {
+  opacity: 1;
+} */
+
 .logos {
   width: 70px;
   padding: 0px 10px;
@@ -140,6 +155,16 @@ li {
 .logos.closeup {
   width: 80px;
 }
+.btn {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 16px;
+}
+.contact {
+  padding-bottom: 136px;
+}
+
 h1 {
   margin-top: 210px;
   font-size: 54px;
@@ -151,7 +176,7 @@ h1,
 h2 {
   font-family: var(--main-font);
   font-weight: 900;
-  letter-spacing: 8px;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 h2,
@@ -167,6 +192,21 @@ h4 {
 }
 h4 {
   padding-bottom: 30px;
+}
+h5 {
+  font-family: var(--main-font);
+  font-weight: 800px;
+  font-size: 32px;
+  letter-spacing: 0.08em;
+  padding-top: 136px;
+}
+h6 {
+  font-family: var(--main-font);
+  font-weight: 800px;
+  font-size: 16px;
+  color: #978b8d;
+  letter-spacing: 0.08em;
+  margin-bottom: 20px;
 }
 p {
   font-family: var(--secondary-font);
