@@ -1,13 +1,13 @@
 :root {
   --main-font: "Red Hat Display", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
-  --section-height: 600px;
+  --section-height: 450px;
 }
 .navbar-nav {
   font-family: var(--main-font);
   line-height: 25px;
   letter-spacing: 3px;
-  padding-right: 40px;
+  /* padding-right: 40px; */
 }
 .navbar-brand {
   text-transform: uppercase;
@@ -15,6 +15,12 @@
   font-weight: 700;
   padding: 0px 60px;
   margin: 0;
+}
+.nav-link.active {
+  letter-spacing: 5px;
+}
+.nav-link.dropdown-toggle {
+  letter-spacing: 3px;
 }
 .nav-link.dropdown-toggle,
 .nav-link.active,
@@ -57,55 +63,44 @@ li {
   margin: 0 auto;
   padding-top: 160px;
 }
+
 .coding-section {
-  position: relative;
-  padding-top: 200px;
-  height: var(--section-height);
+  padding-top: 155px;
 }
-.coding-section .background::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: var(--section-height);
-  background-image: url("../images/Web.png");
-  opacity: 1;
-}
-.coding-section .background:hover {
-  transition: all 150ms ease-in-out;
-  background-image: url("../images/Web.png");
-  opacity: 0.3;
-}
-
 .branding-section {
-  position: relative;
-  padding-top: 150px;
-  height: var(--section-height);
+  padding-top: 70px;
 }
-.branding-section .background::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: var(--section-height);
-  background-image: url("../images/Branding.png");
-  opacity: 1;
+.digital-imaging-section {
+  padding-top: 155px;
 }
-.branding-section .background:hover {
-  transition: all 150ms ease-in-out;
-  background-image: url("../images/Branding.png");
-  opacity: 0.3;
-}
-
+.coding-section,
+.branding-section,
 .digital-imaging-section {
   position: relative;
-  padding-top: 300px;
   height: var(--section-height);
 }
+.coding-section .section-text,
+.branding-section .section-text,
+.digital-imaging-section .section-text {
+  opacity: 0;
+  transition: all 150ms ease-in-out;
+}
+.coding-section:hover .section-text,
+.branding-section:hover .section-text,
+.digital-imaging-section:hover .section-text {
+  opacity: 1;
+}
+.coding-section .background::before {
+  background-image: url("../images/Web.png");
+}
+.branding-section .background::before {
+  background-image: url("../images/Branding.png");
+}
+.digital-imaging-section .background::before {
+  background-image: url("../images/Digital-imaging.png");
+}
+.coding-section .background::before,
+.branding-section .background::before,
 .digital-imaging-section .background::before {
   content: "";
   position: absolute;
@@ -114,27 +109,14 @@ li {
   bottom: 0;
   left: 0;
   height: var(--section-height);
-  background-image: url("../images/Digital-imaging.png");
   opacity: 1;
-}
-.digital-imaging-section .background:hover {
   transition: all 150ms ease-in-out;
-  background-image: url("../images/Digital-imaging.png");
+}
+.coding-section:hover .background::before,
+.branding-section:hover .background::before,
+.digital-imaging-section:hover .background::before {
   opacity: 0.3;
 }
-/* .digital-imaging-section {
-  background-image: url("../images/Digital-imaging.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  max-width: 100%;
-  padding: 200px 0px;
-}
-.digital-imaging-text {
-  opacity: 0;
-}
-.digital-imaging-text:hover {
-  opacity: 1;
-} */
 
 .logos {
   width: 70px;
@@ -159,7 +141,7 @@ li {
   font-family: var(--secondary-font);
   font-weight: 600;
   font-size: 15px;
-  padding: 16px;
+  padding: 15px;
 }
 .contact {
   padding-bottom: 136px;
@@ -196,14 +178,14 @@ h4 {
 h5 {
   font-family: var(--main-font);
   font-weight: 800px;
-  font-size: 32px;
+  font-size: 26px;
   letter-spacing: 0.08em;
   padding-top: 136px;
 }
 h6 {
   font-family: var(--main-font);
   font-weight: 800px;
-  font-size: 16px;
+  font-size: 14px;
   color: #978b8d;
   letter-spacing: 0.08em;
   margin-bottom: 20px;
