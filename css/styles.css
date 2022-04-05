@@ -16,14 +16,14 @@
   padding: 0px 60px;
   margin: 0;
 }
-.nav-link.active {
+.nav-link {
   letter-spacing: 5px;
 }
 .nav-link.dropdown-toggle {
   letter-spacing: 3px;
 }
 .nav-link.dropdown-toggle,
-.nav-link.active,
+.nav-link,
 li {
   text-transform: uppercase;
   font-size: 11px;
@@ -352,7 +352,7 @@ footer.copyright {
   .navbar-brand {
     font-size: 13px;
   }
-  .nav-link.active,
+  .nav-link,
   .nav-link.dropdown-toggle {
     font-size: 8px;
   }
