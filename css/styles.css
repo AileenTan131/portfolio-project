@@ -229,6 +229,10 @@ footer.copyright {
 @media (max-width: 991px) {
   .dropdown-menu.show {
     text-align: center;
+    line-height: 20px;
+  }
+  li {
+    font-size: 12px;
   }
   h1 {
     margin-top: 120px;
@@ -339,6 +343,13 @@ footer.copyright {
   }
   p {
     font-size: 10px;
+  }
+  .dropdown-menu.show {
+    text-align: center;
+    line-height: 12px;
+  }
+  li {
+    font-size: 8.5px;
   }
   .fa-linkedin {
     font-size: 17px;
