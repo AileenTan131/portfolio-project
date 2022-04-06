@@ -132,6 +132,9 @@ li {
 .digital-imaging-section:hover .background::before {
   opacity: 0.3;
 }
+a {
+  text-decoration: none;
+}
 
 .logos {
   width: 88px;
