@@ -340,6 +340,29 @@ footer.copyright {
     font-size: 11px;
   }
 }
+.margin-top {
+  margin-top: 200px;
+}
+.summiko {
+  /* max-width: 58%; */
+  max-width: 65%;
+  border-radius: 8px;
+  border: 3px solid #e2cdad;
+}
+.live-weather-app {
+  max-width: 67%;
+}
+.live-weather-app,
+.summiko {
+  display: block;
+  margin: 0 auto;
+}
+h4.title {
+  text-transform: uppercase;
+  color: #6a6a6b;
+  font-size: 19px;
+  margin: 0;
+}
 
 @media (max-width: 576px) {
   .navbar-brand {
