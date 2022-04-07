@@ -227,6 +227,23 @@ footer.copyright {
   opacity: 50%;
   bottom: 10px;
 }
+.margin-top {
+  margin-top: 200px;
+}
+.summiko {
+  /* max-width: 58%; */
+  max-width: 65%;
+  border-radius: 8px;
+  border: 3px solid #e2cdad;
+}
+.live-weather-app {
+  max-width: 67%;
+}
+.live-weather-app,
+.summiko {
+  display: block;
+  margin: 0 auto;
+}
 
 @media (max-width: 991px) {
   .navbar-nav {
@@ -318,9 +335,16 @@ footer.copyright {
   .contact {
     padding-bottom: 60px;
   }
+  .margin-top {
+    margin-top: 105px;
+    /* margin-top: 160px; */
+  }
   h1 {
     margin-top: 120px;
     font-size: 34px;
+  }
+  h1.page-section-header {
+    /* margin-top: 180px; */
   }
   h2 {
     font-size: 35px;
@@ -340,23 +364,7 @@ footer.copyright {
     font-size: 11px;
   }
 }
-.margin-top {
-  margin-top: 200px;
-}
-.summiko {
-  /* max-width: 58%; */
-  max-width: 65%;
-  border-radius: 8px;
-  border: 3px solid #e2cdad;
-}
-.live-weather-app {
-  max-width: 67%;
-}
-.live-weather-app,
-.summiko {
-  display: block;
-  margin: 0 auto;
-}
+
 h4.title {
   text-transform: uppercase;
   color: #6a6a6b;
@@ -416,6 +424,16 @@ h4.title {
   }
   .logos.closeup {
     width: 40px;
+  }
+  .dictionary-webpage,
+  .translation-webpage {
+    max-width: 65%;
+  }
+  .web-section {
+    padding-top: 30px !important;
+  }
+  h4.title {
+    font-size: 14px;
   }
   h2 {
     font-size: 25px;
@@ -491,5 +509,8 @@ h4.title {
   }
   .logo-row-two {
     bottom: 15px;
+  }
+  h1 {
+    font-size: 28.5px;
   }
 }
