@@ -394,12 +394,13 @@ footer.copyright {
   }
   .dropdown-menu.show {
     line-height: 12px;
+    min-width: 0px;
   }
   li {
     font-size: 8px;
   }
   .dropdown-item {
-    padding: 2px 7px;
+    padding: 2px 9px;
   }
   .timeline {
     padding-top: 35px;
@@ -542,7 +543,7 @@ footer.copyright {
     padding: 1px;
   }
   .dropdown-item {
-    padding: 1px;
+    padding: 2px 5px;
   }
   li {
     font-size: 6px;
