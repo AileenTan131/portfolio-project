@@ -3,12 +3,7 @@
   --secondary-font: "Montserrat", sans-serif;
   --section-height: 450px;
   --responsive-md-section-height: 300px;
-  --responsive-xs-section-height: 200px;
-}
-.navbar-nav {
-  font-family: var(--main-font);
-  line-height: 20px;
-  letter-spacing: 3px;
+  --responsive-xs-section-height: 250px;
 }
 .navbar-brand {
   text-transform: uppercase;
@@ -17,11 +12,16 @@
   padding: 0px 60px;
   margin: 0;
 }
-.nav-link {
+.navbar-nav {
+  font-family: var(--main-font);
+  line-height: 20px;
   letter-spacing: 5px;
 }
-.nav-link.dropdown-toggle {
+.nav-link {
   letter-spacing: 3px;
+}
+.nav-link.dropdown-toggle {
+  letter-spacing: 4px;
 }
 .nav-link.dropdown-toggle,
 .nav-link,
@@ -45,7 +45,12 @@ li {
 }
 .fa-linkedin {
   font-size: 20px;
-  color: #1d65c3;
+  color: #978b8d;
+  margin-right: 10px;
+  opacity: 0.3;
+}
+.fa-linkedin:hover {
+  opacity: 1;
 }
 /* .vmw-group-logo {
   position: relative;
@@ -198,6 +203,12 @@ h3 {
 }
 h4 {
   padding: 0px 25px;
+}
+h4.title {
+  text-transform: uppercase;
+  color: #6a6a6b;
+  font-size: 19px;
+  margin: 0;
 }
 h5 {
   font-family: var(--main-font);
@@ -364,41 +375,32 @@ footer.copyright {
   }
 }
 
-h4.title {
-  text-transform: uppercase;
-  color: #6a6a6b;
-  font-size: 19px;
-  margin: 0;
-}
-
 @media (max-width: 576px) {
   .navbar-brand {
-    padding: 0px 20px;
-    font-size: 10px;
+    padding: 0px 18px;
+    font-size: 12px;
+    letter-spacing: 2px;
   }
   .nav-link,
   .nav-link.dropdown-toggle {
     padding: 3px;
-    font-size: 6px;
+    font-size: 8px;
   }
   .nav-link {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
   .nav-link.dropdown-toggle,
   .dropdown-menu.show {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
   }
   .dropdown-menu.show {
     line-height: 12px;
   }
   li {
-    font-size: 7px;
+    font-size: 8px;
   }
   .dropdown-item {
     padding: 2px 7px;
-  }
-  .fa-linkedin {
-    font-size: 17px;
   }
   .timeline {
     padding-top: 35px;
@@ -414,13 +416,13 @@ h4.title {
     height: var(--responsive-xs-section-height);
   }
   .coding-section {
-    padding-top: 75px;
+    padding-top: 93px;
   }
   .branding-section {
-    padding-top: 25px;
+    padding-top: 40px;
   }
   .digital-imaging-section {
-    padding-top: 75px;
+    padding-top: 93px;
   }
   .logos {
     padding: 4px;
@@ -453,7 +455,7 @@ h4.title {
     padding: 6px;
   }
   .contact {
-    padding-bottom: 35px;
+    padding-bottom: 45px;
   }
   h3,
   h4,
@@ -473,32 +475,30 @@ h4.title {
     margin-bottom: -0.5rem;
   }
   h3 {
-    font-size: 7.5px;
+    font-size: 10px;
     margin: 0px;
   }
   h5 {
-    font-size: 13px;
+    font-size: 14px;
     margin: 5px;
-    padding-top: 35px;
+    padding-top: 50px;
   }
   h6 {
-    font-size: 7.5px;
-    margin-bottom: 10px;
+    font-size: 10px;
+    margin-bottom: 14px;
   }
   p {
-    font-size: 9px;
+    font-size: 11px;
     line-height: 1.3;
   }
-  p.social-media,
   .fa-linkedin {
     position: relative;
-    bottom: 20px;
-  }
-  .fa-linkedin {
-    font-size: 11px;
+    bottom: 15px;
+    font-size: 15px;
+    opacity: 0.5;
   }
   footer.copyright {
-    font-size: 5px;
+    font-size: 7px;
   }
   /* 1-web developer page */
   .margin-top {
