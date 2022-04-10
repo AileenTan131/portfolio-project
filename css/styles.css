@@ -399,7 +399,7 @@ footer.copyright {
     position: relative;
     top: 100px;
     font-style: italic;
-    font-size: 17px;
+    font-size: 14px;
     opacity: 50%;
   }
 }
@@ -553,6 +553,11 @@ footer.copyright {
   .webpage-click-notice {
     top: 40px;
     font-size: 10px;
+  }
+  /* 3-digital imaging page */
+  .di-titles {
+    font-size: 11px;
+    padding: 2px;
   }
 }
 @media (max-width: 280px) {
