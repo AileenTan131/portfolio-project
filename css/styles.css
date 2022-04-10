@@ -261,19 +261,22 @@ footer.copyright {
   opacity: 40%;
 }
 /* 3-digital imaging page */
-.di-images {
+.di-images,
+.branding-images {
   position: relative;
 }
-.di-images .image-hover {
+.di-images .image-hover,
+.branding-images .image-hover {
   display: none;
   position: absolute;
   top: 0;
   left: 0;
 }
-.di-images:hover .image-hover {
+.di-images:hover .image-hover,
+.branding-images:hover .image-hover {
   display: inline;
 }
-.di-titles {
+.band-titles {
   color: white;
   background-color: black;
   margin: 0;
@@ -401,6 +404,14 @@ footer.copyright {
     font-style: italic;
     font-size: 14px;
     opacity: 50%;
+  }
+  /* 2-branding page */
+  .brand-image-click-notice {
+    margin: 0;
+    background-color: black;
+    font-style: italic;
+    font-size: 11px;
+    color: white;
   }
 }
 
@@ -555,9 +566,13 @@ footer.copyright {
     font-size: 10px;
   }
   /* 3-digital imaging page */
-  .di-titles {
+  .band-titles {
     font-size: 11px;
     padding: 2px;
+  }
+  /*2-branding page*/
+  .brand-image-click-notice {
+    font-size: 8px;
   }
 }
 @media (max-width: 280px) {
