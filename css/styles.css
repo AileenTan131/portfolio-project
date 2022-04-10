@@ -121,7 +121,6 @@ li {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100%;
   height: var(--section-height);
   background-size: cover;
   opacity: 1;
@@ -260,6 +259,25 @@ footer.copyright {
 }
 .run-app:hover {
   opacity: 40%;
+}
+/* 3-digital imaging page */
+.di-images {
+  position: relative;
+}
+.di-images .image-hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.di-images:hover .image-hover {
+  display: inline;
+}
+.di-titles {
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 10px;
 }
 
 @media (max-width: 991px) {
