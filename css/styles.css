@@ -239,18 +239,6 @@ footer.copyright {
 .margin-top {
   margin-top: 200px;
 }
-.summiko {
-  max-width: 100%;
-}
-.summiko {
-  display: block;
-  margin: 0 auto;
-}
-.dictionary-webpage,
-.translation-webpage {
-  width: 65%;
-  border-radius: 8px;
-}
 .run-app:hover {
   opacity: 40%;
 }
@@ -538,11 +526,6 @@ footer.copyright {
   /* 1-web developer page */
   .margin-top {
     margin-top: 53px;
-  }
-  .dictionary-webpage,
-  .translation-webpage {
-    width: 88%;
-    border-radius: 6px;
   }
   .webpage-click-notice {
     top: 40px;
