@@ -243,9 +243,12 @@ footer.copyright {
   max-width: 100%;
 }
 .live-weather-app {
-  max-width: 100%;
+  content: "";
+  height: 610px;
+  background-image: url("../images/web-developer/live-weather-app.png");
+  background-size: cover;
 }
-.live-weather-app,
+/* .live-weather-app, */
 .summiko {
   display: block;
   margin: 0 auto;
@@ -403,6 +406,9 @@ footer.copyright {
     font-size: 14px;
     opacity: 50%;
   }
+  .live-weather-app {
+    height: 400px;
+  }
   /* 2-branding page */
   .brand-image-click-notice {
     margin: 0;
@@ -548,12 +554,12 @@ footer.copyright {
     width: 88%;
     border-radius: 6px;
   }
-  .live-weather-app {
-    max-width: 90%;
-  }
   .webpage-click-notice {
     top: 40px;
     font-size: 10px;
+  }
+  .live-weather-app {
+    height: 245px;
   }
   /* 3-digital imaging page */
   .band-titles {
