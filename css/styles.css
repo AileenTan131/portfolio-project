@@ -307,10 +307,12 @@ footer.copyright {
     padding-top: 108px;
   }
   .coding-section .background::before,
-  .branding-section .background::before,
   .digital-imaging-section .background::before {
     opacity: 0.3;
     height: var(--responsive-md-section-height);
+  }
+  .branding-section .background::before {
+    opacity: 0.1;
   }
   .coding-section .section-text,
   .branding-section .section-text,
