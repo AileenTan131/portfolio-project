@@ -312,7 +312,8 @@ footer.copyright {
     height: var(--responsive-md-section-height);
   }
   .branding-section .background::before {
-    opacity: 0.1;
+    opacity: 0.2;
+    height: var(--responsive-md-section-height);
   }
   .coding-section .section-text,
   .branding-section .section-text,
