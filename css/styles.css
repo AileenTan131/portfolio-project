@@ -235,6 +235,13 @@ footer.copyright {
   opacity: 50%;
   bottom: 10px;
 }
+footer .github-link:hover {
+  color: rgb(255, 0, 0);
+}
+footer .github-link:active {
+  color: rgb(64, 8, 8);
+}
+
 /* 1-web developer page */
 .margin-top {
   margin-top: 200px;
