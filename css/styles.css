@@ -171,6 +171,9 @@ a {
 .contact {
   padding-bottom: 136px;
 }
+.divide {
+  padding: 0;
+}
 
 h1 {
   margin-top: 210px;
@@ -540,7 +543,7 @@ footer .github-link:active {
   }
   /* 3-digital imaging page */
   .band-titles {
-    font-size: 11px;
+    font-size: 9px;
     padding: 2px;
   }
   /*2-branding page*/
